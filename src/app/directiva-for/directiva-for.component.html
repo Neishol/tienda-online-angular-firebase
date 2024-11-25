@@ -1,0 +1,15 @@
+<h2>Listado de Productos</h2>
+<div>
+  <button
+    class="btn btn-primary my-5"
+    type="submit"
+    (click)="agregarProducto()"
+  >
+    Agregar
+  </button>
+</div>
+<ul class="list-group w-50 mx-auto">
+  @for(llave of obtenerLlaves(); track llave){
+  <app-producto [producto]="listadoProductos[llave]" [llave]="llave" />
+  }
+</ul>
