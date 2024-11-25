@@ -1,5 +1,19 @@
 # TiendaOnline
 
+![Login](src/assets/images/login.png)
+
+![Despliegue-datos](src/assets/images/despliegue-datos.png)
+
+![Agregar-producto](src/assets/images/agregar-producto.png)
+
+![Editar-producto](src/assets/images/editar-producto.png)
+
+![Firebase](src/assets/images/firebase.png)
+
+![Variables de entorno](src/assets/images/variables-entorno.png)
+
+Para que puedan ejecutar el proyecto, deben crear un proyecto en firebase, luego la configuracion colocarla en un archivo en src/environments/environment.ts y exportar la configuracion, como si fueran variables de entorno.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.10.
 
 ## Development server
